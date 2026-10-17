@@ -1,0 +1,11 @@
+{
+  "product": "mpls-new-rentals",
+  "site": "https://mpls-new-rentals.vercel.app",
+  "price_usd": 5,
+  "launch": 1792195200,
+  "name": "New Minneapolis Rentals: the full list",
+  "short": "New Minneapolis Rentals",
+  "thing": "full list",
+  "description": "Every Minneapolis rental licensed since April 1, 2026 or lapsed, with its last heating permit, year built and company owner contact.",
+  "line": "The full list, with company owner contacts, sorted heating-check-likely first, plus the spreadsheet, is $5, once."
+}
