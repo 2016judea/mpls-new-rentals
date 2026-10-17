@@ -32,6 +32,11 @@ module.exports = async (req, res) => {
         "invoice_creation[invoice_data][footer]": `Your password: ${password}. Open the ${OFFER.thing} at ${SITE}/?pw=${password}. Brick & Mortar · hello@brickandmortar.dev`,
         "invoice_creation[invoice_data][metadata][product]": PRODUCT,
         "metadata[product]": PRODUCT,
+        // for the shared Stripe router (~/Desktop/stripe-router): which product, and whose
+        // handler emails the password
+        "metadata[site]": SITE,
+        "metadata[pw_handler]": `${SITE}/api/stripe-webhook`,
+        "payment_intent_data[metadata][pw_handler]": `${SITE}/api/stripe-webhook`,
         "metadata[pw_nonce]": nonce,
         "metadata[password]": password,
         "payment_intent_data[metadata][product]": PRODUCT,
