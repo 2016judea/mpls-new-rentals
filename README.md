@@ -17,7 +17,7 @@ offering *"Rental License and Tish Report Safety Checks on Furnaces"*.
 | | what | why |
 |---|---|---|
 | free | the count, the map of every rental, counts by reason, and 10 real rows with heating status and year built | proves the join on real addresses before anyone pays |
-| **$5** | all 980 rows; owner, phone and email (companies and 5+ unit landlords); license applicant; the last heating permit and its description; the **heating check most likely due** sort; the spreadsheet | the poster sells the check itself: the part they act on is *which* rental needs it and *who* to call |
+| **$5** | all 952 rows; owner, phone and email (companies and 5+ unit landlords); license applicant; the last heating permit and its description; the **heating check most likely due** sort; the spreadsheet | the poster sells the check itself: the part they act on is *which* rental needs it and *who* to call |
 
 ## Price
 
