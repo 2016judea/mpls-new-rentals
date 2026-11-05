@@ -67,7 +67,7 @@ def main():
         d = dt.datetime.utcfromtimestamp(h["issueDate"] / 1000).date().isoformat() if h.get("issueDate") else ""
         if d and (h["APN"] not in heat or d > heat[h["APN"]][0]):
             heat[h["APN"]] = (d, (h.get("comments") or "").strip()[:90])
-    con = duckdb.connect("/Users/aidan/Desktop/bricks/data/hennepin_gis.duckdb", read_only=True)
+    con = duckdb.connect("/Users/aidan/Desktop/workspace/bricks/data/hennepin_gis.duckdb", read_only=True)
     pins = list({r["apn"] for r in rows})
     built = dict(con.execute("select pin, build_yr from parcels where pin in (select unnest(?))", [pins]).fetchall())
     # A heating permit counts when it is inside the ten-year window AND the register could hold it.

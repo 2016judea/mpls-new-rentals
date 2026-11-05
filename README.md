@@ -27,7 +27,7 @@ about twenty times. Revise on checkout-vs-payment evidence.
 
 ## The paywall
 
-Ported from `~/Desktop/msp-house-index` via `salon-rates` (`product-paywall` skill).
+Ported from `~/Desktop/workspace/msp-house-index` via `salon-rates` (`product-paywall` skill).
 `site/` ships only the free slice; `scripts/publish.py` writes the full list to
 `private/bundle/full.json.gz` (gitignored) and `scripts/deploy.py` uploads it as `api/_full/`,
 which only `/api/data` reads.
